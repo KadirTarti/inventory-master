@@ -1,5 +1,5 @@
 # inventory-master
-# C-link E-markt 
+
 https://shopping-app-akt.netlify.app/
 
 ## Description 🟢
