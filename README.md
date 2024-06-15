@@ -1,6 +1,6 @@
 # inventory-master
 
-https://shopping-app-akt.netlify.app/
+https://akt-inventory-master.netlify.app/
 
 ## Description 🟢
 
