@@ -4,11 +4,11 @@ https://akt-inventory-master.netlify.app/
 
 ## Description 🟢
 
-Hi everyone! In this project, a single-page web application is designed where users can add new products to their shopping lists, store these products on a mock API and update them in their shopping carts. A user-friendly interface is aimed using React, and transition between pages is provided using React Router. There is also a 'New Product' tab that allows manual data entry into the API used in the project.
+Inventory Master is a comprehensive inventory management system designed to streamline the tracking, management, and organization of inventory for both business and personal use. Key features include detailed inventory tracking, user management with multiple roles and access levels, real-time updates, advanced search and filtering options, comprehensive reporting, responsive design for accessibility on both desktop and mobile devices, and scalability to accommodate businesses of all sizes. The technical stack consists of modern JavaScript frameworks for a dynamic frontend, a powerful backend framework for data processing and API management, a robust database system for efficient data storage, and flexible deployment options on various platforms.
 
 ## Outcome 🎥
 
-![ShoppingAppKlein1-ezgif com-crop](https://github.com/KadirTarti/KadirTarti/assets/150926891/2553b680-d23f-40ad-a8ca-3e6a5153d3b5)
+ ![Inventorymaster](https://github.com/KadirTarti/KadirTarti/assets/150926891/be9cf86c-a147-4d33-985e-06a63b0f762a)
 
 ## Project Skeleton 👷
 
