@@ -13,31 +13,64 @@ Inventory Master is a comprehensive inventory management system designed to stre
 ## Project Skeleton 👷
 
 ```
-ShoppingApp (folder)
+Inventory-Master App (folder)
 |
 ├── public
-│     └── index.html
-│     ├── manifest.json
-│     ├── favicon.ico
-│     ├── logo192.png
-│     ├── logo512.png
+│     ├── assets
+│     └── vite.svg
 ├── src
-│   ├── App.js
+│   ├── app
+│   │    └── store.jsx
 │   ├── assests
 │   ├── components
+│   │    ├── Cards
+│   │    │   ├── BrandCard.jsx
+│   │    │   └── FirmCard.jsx
+│   │    ├── Commons
+│   │    │   ├── AuthHeader.jsx
+│   │    │   ├── AuthImage.jsx
+│   │    │   ├── AuthLogo.jsx
+│   │    │   ├── Loading.jsx
+│   │    │   ├── MyButton.jsx
+│   │    │   ├── MyTextField.jsx
+│   │    │   ├── PageHeader.jsx
+│   │    │   ├── SelectControl.jsx
+│   │    │   └── StockModal.jsx
+│   │    ├── Dashboard
+│   │    ├── Forms
+│   │    ├── Navigation
+│   │    └── Tables
+│   ├── features
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── helper
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── hooks
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── pages
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── router
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── services
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── styles
 │   │    ├── Navbar.jsx
 │   │    ├── ProductCard.jsx
 │   │    └── ProductForm.jsx
 │   ├── index.css
 │   ├── index.js
-│   └── pages
-│        ├── About.jsx
-│        ├── Main.jsx
-│        ├── NewProduct.jsx
-│        ├── ProductList.jsx
-│        └── UpdateProduct.jsx
-│   ├── router
-│   │    └── AppRouter.jsx
+
 ├── .gitignore
 ├── LICENSE
 ├── package-lock.json
