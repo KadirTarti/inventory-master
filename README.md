@@ -112,19 +112,19 @@ Epic User Story: Developing a Stock Management Application
   -I must conduct validation checks on the product addition form to maintain data integrity and accuracy.
 
 3-) Managing Shopping Cart Activities
-  - Construct elements allowing users to observe their shopping carts
-  - Retrieve and exhibit products from the Mock API specifically for the shopping cart
-  - Implement functions to modify and eliminate quantities of products in the cart
+  - As a user, I want to construct elements allowing me to observe my shopping cart so that I can manage my purchases effectively.
+  - I need to retrieve and exhibit products from the Mock API specifically for the shopping cart to reflect current inventory accurately.
+  - I aim to implement functions to modify and eliminate quantities of products in the cart to adjust orders as needed.
 
 4-) Interface Design and Improvements
-  - Craft the holistic user interface and enhance usability.
-  - Apply necessary adjustments and advancements based on user input
-  - Ensure adaptability to mobile devices through responsive design
+  - As a user, I want to craft the holistic user interface and enhance usability to provide a seamless experience.
+  - I need to apply necessary adjustments and advancements based on user input to continuously improve the application.
+  - I aim to ensure adaptability to mobile devices through responsive design to reach a wider audience.
 
 5️-) Creating an About Section
-  - Develop and execute the arrangement for the About section
-  - Incorporate pertinent content such as personal information
-  - Stylize the About section using CSS styles
+  - As a user, I want to develop and execute the arrangement for the About section to share relevant information.
+  - I need to incorporate pertinent content such as personal information to connect with my customers.
+  - I aim to stylize the About section using CSS styles to match the overall aesthetic of the application.
 
 6️-) Establishing the Primary Page
   - Arrange the foundational layout for the main landing page
