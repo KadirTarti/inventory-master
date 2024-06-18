@@ -62,17 +62,27 @@ Inventory-Master App (folder)
 │   ├── hooks
 │   │    └── useAuthCall.jsx
 │   ├── pages
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    ├── Brand.jsx
+│   │    ├── Dashboard.jsx
+│   │    ├── Firms.jsx
+│   │    ├── Home.jsx
+│   │    ├── Login.jsx
+│   │    ├── Products.jsx
+│   │    ├── Purchase.jsx
+│   │    ├── Register.jsx
+│   │    └── Sales.jsx
 │   ├── router
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    ├── AppRouter.jsx
+│   │    └── PrivateRouter.jsx
 │   ├── services
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    ├── exampleFiles
+│   │    │    ├── brand.jsx
+│   │    │    ├── categories.jsx
+│   │    │    ├── firms.jsx
+│   │    │    ├── product.jsx
+│   │    │    ├── purchase.jsx
+│   │    │    └── sale.jsx
+│   │    └── stock.jsx
 │   ├── styles
 │   │    ├── Navbar.jsx
 │   │    ├── ProductCard.jsx
