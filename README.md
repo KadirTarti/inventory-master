@@ -37,21 +37,30 @@ Inventory-Master App (folder)
 │   │    │   ├── SelectControl.jsx
 │   │    │   └── StockModal.jsx
 │   │    ├── Dashboard
+│   │    │   ├── Chart.jsx
+│   │    │   └── KpiCards.jsx
 │   │    ├── Forms
+│   │    │   ├── BrandForm.jsx
+│   │    │   ├── FirmForm.jsx
+│   │    │   ├── LoginForm.jsx
+│   │    │   ├── ProductForm.jsx
+│   │    │   ├── PurchaseForm.jsx
+│   │    │   ├── RegisterForm.jsx
+│   │    │   └── SaleForm.jsx
 │   │    ├── Navigation
+│   │    │   └── MenuListItems.jsx
 │   │    └── Tables
+│   │    │   ├── ProductTable.jsx
+│   │    │   ├── PurchaseTable.jsx
+│   │    │   └── SaleTable.jsx
 │   ├── features
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    ├── DarkMode.jsx
+│   │    └── authSlice.jsx
 │   ├── helper
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    ├── ToastNotify.jsx
+│   │    └── formField.jsx
 │   ├── hooks
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    └── useAuthCall.jsx
 │   ├── pages
 │   │    ├── Navbar.jsx
 │   │    ├── ProductCard.jsx
