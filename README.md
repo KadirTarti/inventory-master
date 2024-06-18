@@ -84,18 +84,11 @@ Inventory-Master App (folder)
 │   │    │    └── sale.jsx
 │   │    └── stock.jsx
 │   ├── styles
-│   │    ├── Navbar.jsx
-│   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
+│   │    └── globalStyle.jsx
+│   ├── App.jsx
 │   ├── index.css
-│   ├── index.js
-
-├── .gitignore
-├── LICENSE
-├── package-lock.json
-├── package.json
-└── README.md
-└── yarn.lock
+│   └── main.jsx
+│
 
 ```
 
