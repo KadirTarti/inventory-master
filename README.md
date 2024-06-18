@@ -96,19 +96,20 @@ Inventory-Master App (folder)
 
 ### Project Planning & Management 🗺️
 
-Epic User Story: Developing a Shopping Cart Application
+Epic User Story: Developing a Stock Management Application
+
 
 ## User Stories:
 
-1️-) Displaying Products:
-  - Develop elements to showcase existing product
-  - Retrieve and list items from the Mock API
-  - Customize the presentation of products using CSS
-
+1️-) Displaying Products
+  - As a user, I want to develop elements to showcase existing products so that I can visually present my inventory.
+  - I need to retrieve and list items from the Mock API to dynamically populate the product display.
+  - I aim to customize the presentation of products using CSS to align with my brand identity.Displaying Products:
+  
 2-) Adding New Products 
-  - Create components enabling users to introduce new products
-  - Integrate mechanisms to store new products within the Mock API
-  - Conduct validation checks on the product addition form.
+  - As a user, I want to create components enabling me to introduce new products to my inventory.
+  - I need to integrate mechanisms to store new products within the Mock API to ensure they are added correctly.
+  -I must conduct validation checks on the product addition form to maintain data integrity and accuracy.
 
 3-) Managing Shopping Cart Activities
   - Construct elements allowing users to observe their shopping carts
@@ -149,7 +150,7 @@ The application should have a responsive design.
 
 ## Objective 🔍
 
-Build a Shopping Cart App using ReactJS.
+To develop a comprehensive shopping cart application that enables users to manage their inventory effectively, including displaying products, adding new products, managing shopping cart activities, enhancing interface design, creating an About section, establishing the primary page, enabling a new product entry page, and deploying a product listing page.
 
 
 ### This project helped me develop the following skills:
