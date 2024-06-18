@@ -127,25 +127,25 @@ Epic User Story: Developing a Stock Management Application
   - I aim to stylize the About section using CSS styles to match the overall aesthetic of the application.
 
 6️-) Establishing the Primary Page
-  - Arrange the foundational layout for the main landing page
-  - Integrate navigation links to facilitate movement to other sections
-  - Design and introduce any supplementary functionalities on the primary page
+  - As a user, I want to arrange the foundational layout for the main landing page to serve as the initial point of contact.
+  - I need to integrate navigation links to facilitate movement to other sections of the application.
+  - I aim to design and introduce any supplementary functionalities on the primary page to engage visitors immediately.
 
 
 7️-) Enabling a New Product Entry Page
-  - Formulate a structure for users to input details of new product
-  - Implement validation measures within the new productform
-  - Enable functionality to submit data pertaining to new product
+  - As a user, I want to formulate a structure for users to input details of new products to expand my inventory.
+  - I need to implement validation measures within the new product form to ensure accurate and consistent data entry.
+  - I aim to enable functionality to submit data pertaining to new products to update my inventory records seamlessly.
 
 8️-) Deploying a Product Listing Page
-  - Showcase a compilation of available products fetched from the Mock API
-  - Introduce options for filtering or sorting within the product list
-  - Incorporate buttons or hyperlinks for accessing detailed information or making updates to products
+  - As a user, I want to showcase a compilation of available products fetched from the Mock API to provide visibility into my inventory.
+  - I need to introduce options for filtering or sorting within the product list to assist users in finding specific products.
+  - I aim to incorporate buttons or hyperlinks for accessing detailed information or making updates to products to enhance interactivity.
 
 
 ## Additional Requirement: ➕
 
-The application should have a responsive design.
+The application must support multi-language functionality to cater to a global audience.
 
 
 ## Objective 🔍
@@ -155,18 +155,15 @@ To develop a comprehensive shopping cart application that enables users to manag
 
 ### This project helped me develop the following skills:
 
-⭐ improve coding skills within HTML & CSS & ReactJS & React Router, React Hooks & Mock API
+⭐ This project enhanced my ability to design and implement user-friendly interfaces, ensuring a seamless user experience across various devices.
 
-⭐ Learning to fetch data from mock api and add data to api
+⭐ It also improved my proficiency in integrating APIs for dynamic data retrieval and manipulation, crucial for maintaining up-to-date inventory systems. 
 
-⭐ use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+⭐  Additionally, the project deepened my understanding of responsive design principles, allowing me to create applications that adapt to different screen sizes and orientations effectively.
 
 
 ## Informaitonal video! ℹ️
-How to use Mock API ? -> <a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank"> Watch the video! </a>
-
-## MockApi 📦
-Go to the Mock API web page and start coding with the free API! -> <a href="https://mockapi.io/" target="_blank">MockApi</a>
+How to use Postman ? -> <a href="https://www.youtube.com/watch?v=VywxIQ2ZXw4" target="_blank"> Watch the video! </a>
 
 
 ## Contributing & Collaborate 💪
