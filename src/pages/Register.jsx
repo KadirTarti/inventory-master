@@ -15,9 +15,11 @@ import AuthLogo from "../components/Commons/AuthLogo";
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import { Margin } from "@mui/icons-material";
 import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
 const Register = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const { register } = useAuthCall();
   return (
     <Container maxWidth="lg">
@@ -78,12 +80,16 @@ const Register = () => {
             validationSchema={SignupSchema}
             onSubmit={(values, actions) => {
               register(values).then(()=> {
+                dispatch({type: 'SET_CURRENT_USER', payload: values})
+              // actions.resetForm();
+              // actions.setSubmitting(false);
+              navigate("/");
+              })   .catch(error => {
+              console.error('Kayıt hatası:', error);
+              // Hata mesajı göster
+            });
               actions.resetForm();
               actions.setSubmitting(false);
-              navigate("/");
-              }).catch(()=>{
-                actions.setSubmitting(false)
-              } )
             }}
             component={(props) => <RegisterForm {...props} />}
           ></Formik>
