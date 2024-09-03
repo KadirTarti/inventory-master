@@ -27,9 +27,11 @@ const useAuthCall = () => {
       );
       console.log("register", data);
       dispatch(registerSuccess(data));
+      toastSuccessNotify("Register performed");
       navigate("/stock");
     } catch (error) {
       dispatch(fetchFail());
+      toastErrorNotify("Register can not be performed");
     }
   };
   const login = async (userInfo) => {
