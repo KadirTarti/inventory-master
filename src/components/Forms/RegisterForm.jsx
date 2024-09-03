@@ -8,6 +8,8 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { useState } from "react";
 import { IconButton, InputAdornment } from "@mui/material";
+import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
 //! Yup ile istediğimiz alanlara istediğimiz validasyon koşullarını
 //  oluşturuyoruz. Sonra oluşturduğumuz bu şemayı formike tanımlayarak
@@ -49,8 +51,12 @@ const SignUpForm = ({
   errors,
   touched,
   handleBlur,
+  handleSubmit,
   isSubmitting,
 }) => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
@@ -64,7 +70,7 @@ const SignUpForm = ({
 
   return (
     <div>
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 1, width:'100%', margin:'auto'}}>
           <TextField
             id="username"

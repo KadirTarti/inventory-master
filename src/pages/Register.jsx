@@ -14,8 +14,10 @@ import logo from "../assets/inventoryMaster2.png";
 import AuthLogo from "../components/Commons/AuthLogo";
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import { Margin } from "@mui/icons-material";
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
+  const navigate = useNavigate();
   const { register } = useAuthCall();
   return (
     <Container maxWidth="lg">
