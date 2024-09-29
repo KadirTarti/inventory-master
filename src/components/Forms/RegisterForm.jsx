@@ -23,12 +23,12 @@ export const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
     .min(2, "Too Short!")
     .max(50, "Too Long!")
-    .required("Firstname is required"),
+    .required("Firstname is required!"),
   lastName: Yup.string()
     .min(2, "Too Short!")
     .max(50, "Too Long!")
-    .required("Lastname is required"),
-  email: Yup.string().email("Invalid email").required("Email is required"),
+    .required("Lastname is required!"),
+  email: Yup.string().email("Invalid email").required("Email is required!"),
   password: Yup.string()
     .min(8, "It must be at least 8 characters long!")
     .max(50, "It can be a maximum of 50 characters long!")
@@ -39,10 +39,10 @@ export const SignupSchema = Yup.object().shape({
       /[@$?!%&*]+/,
       "Must contain at least one special character (@$!%*?&)!"
     )
-    .required("Password is required"),
+    .required("Password is required!"),
     confirmPassword: Yup.string()
     .oneOf([Yup.ref('password'), null], 'Passwords must match')
-    .required("Passwodrs must match!")
+    .required("Passwords must match!")
 });
 
 const SignUpForm = ({
@@ -87,7 +87,7 @@ const SignUpForm = ({
             // error={touched.username && Boolean(errors.username)} //validationda verdiğimiz kalıba uymazsa rengi errora çevirmesi için error attribute ı benden false/true degeri bekliyor ondan dolayı daha sağlıklı olması için boolean deger döndürüyoruz.
             // touched da kullanıcının inputa tıklayıp tıklamadığını yakalıyor
           />
-           <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+           <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.username && errors.username ? errors.username : " "}
 </Box>
 
@@ -107,7 +107,7 @@ const SignUpForm = ({
             // helperText={touched.firstName && errors.firstName}
             // error={touched.firstName && Boolean(errors.firstName)}
           />
-          <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+          <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.firstName && errors.firstName ? errors.firstName : " "}
 </Box>
 
@@ -125,7 +125,7 @@ const SignUpForm = ({
             // helperText={touched.lastName && errors.lastName}
             // error={touched.lastName && Boolean(errors.lastName)}
           />
-                    <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+                    <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.lastName && errors.lastName ? errors.lastName : " "}
 </Box>
 
@@ -142,7 +142,7 @@ const SignUpForm = ({
             // helperText={touched.email && errors.email}
             // error={touched.email && Boolean(errors.email)}
           />
-            <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+            <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.email && errors.email ? errors.email : " "}
 </Box>
           <TextField
@@ -169,7 +169,7 @@ const SignUpForm = ({
                 </InputAdornment>),
             }}      
           /> 
-                <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+                <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.password && errors.password ? errors.password : " "}
 </Box>
           
@@ -201,7 +201,7 @@ const SignUpForm = ({
                 </InputAdornment>),
             }}  
           />
-          <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
+          <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
   {touched.confirmPassword && errors.confirmPassword ? errors.confirmPassword : " "}
 </Box>
           
