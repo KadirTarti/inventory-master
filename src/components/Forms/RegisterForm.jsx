@@ -71,7 +71,7 @@ const SignUpForm = ({
   return (
     <div>
       <Form onSubmit={handleSubmit}>
-        <Box sx={{ display: "flex", flexDirection: "column", gap: 1, width:'100%', margin:'auto'}}>
+        <Box sx={{ display: "flex", flexDirection: "column", width:'100%', margin:'auto'}}>
           <TextField
             id="username"
             name="username" //formik name attributedından eşleştirme yapıyor.
@@ -87,7 +87,7 @@ const SignUpForm = ({
             // error={touched.username && Boolean(errors.username)} //validationda verdiğimiz kalıba uymazsa rengi errora çevirmesi için error attribute ı benden false/true degeri bekliyor ondan dolayı daha sağlıklı olması için boolean deger döndürüyoruz.
             // touched da kullanıcının inputa tıklayıp tıklamadığını yakalıyor
           />
-           <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+           <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.username && errors.username ? errors.username : " "}
 </Box>
 
@@ -107,7 +107,7 @@ const SignUpForm = ({
             // helperText={touched.firstName && errors.firstName}
             // error={touched.firstName && Boolean(errors.firstName)}
           />
-          <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+          <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.firstName && errors.firstName ? errors.firstName : " "}
 </Box>
 
@@ -125,7 +125,7 @@ const SignUpForm = ({
             // helperText={touched.lastName && errors.lastName}
             // error={touched.lastName && Boolean(errors.lastName)}
           />
-                    <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+                    <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.lastName && errors.lastName ? errors.lastName : " "}
 </Box>
 
@@ -142,7 +142,7 @@ const SignUpForm = ({
             // helperText={touched.email && errors.email}
             // error={touched.email && Boolean(errors.email)}
           />
-            <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+            <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.email && errors.email ? errors.email : " "}
 </Box>
           <TextField
@@ -169,7 +169,7 @@ const SignUpForm = ({
                 </InputAdornment>),
             }}      
           /> 
-                <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+                <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.password && errors.password ? errors.password : " "}
 </Box>
           
@@ -201,7 +201,7 @@ const SignUpForm = ({
                 </InputAdornment>),
             }}  
           />
-          <Box sx={{ minHeight: '18px', color: 'red', fontSize: '12px' }}>
+          <Box sx={{ minHeight: '24px', color: 'red', fontSize: '12px' }}>
   {touched.confirmPassword && errors.confirmPassword ? errors.confirmPassword : " "}
 </Box>
           
