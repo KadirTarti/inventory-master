@@ -29,7 +29,7 @@ const LoginForm = ({ values, handleChange, errors, touched, handleBlur }) => {
 
   return (
     <Form>
-    <Box sx={{ display: "flex", flexDirection: "column", gap: 1, width:'60%', margin:'auto'  }}>
+    <Box sx={{ display: "flex", flexDirection: "column", width:'60%', margin:'auto'  }}>
         <TextField
           label="Email"
           name="email"
@@ -40,9 +40,12 @@ const LoginForm = ({ values, handleChange, errors, touched, handleBlur }) => {
           value={values.email}
           onChange={handleChange}
           onBlur={handleBlur}
-          helperText={touched.email && errors.email}
-          error={touched.email && Boolean(errors.email)}
+          // helperText={touched.email && errors.email}
+          // error={touched.email && Boolean(errors.email)}
         />
+         <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
+  {touched.email && errors.email ? errors.email : " "}
+</Box>
         <TextField
           label="Password"
           name="password"
@@ -53,8 +56,8 @@ const LoginForm = ({ values, handleChange, errors, touched, handleBlur }) => {
           value={values.password}
           onChange={handleChange}
           onBlur={handleBlur}
-          helperText={touched.password && errors.password}
-          error={touched.password && Boolean(errors.password)}
+          // helperText={touched.password && errors.password}
+          // error={touched.password && Boolean(errors.password)}
           InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
@@ -67,6 +70,9 @@ const LoginForm = ({ values, handleChange, errors, touched, handleBlur }) => {
                 </InputAdornment>),
             }}   
         />
+         <Box sx={{ minHeight: '24px', color: '#e61919', fontSize: '12px' }}>
+  {touched.password && errors.password ? errors.password : " "}
+</Box>
         {!loading ? (
           <Button variant="contained" type="submit" style={{fontFamily:'monospace'}}>
            Sign In
