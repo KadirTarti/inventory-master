@@ -50,18 +50,15 @@ const iconStyle = {
     color: "secondary.main",
     // borderRadius: "1rem",
     "&:hover": {
-      backgroundColor: "lightBlue",
-      color: "black",
+      backgroundColor: "#696969",
+      color: "white"
     },
   };
   const selectedStyle = {
-    backgroundColor: "secondary.second",
+    backgroundColor: "#FFA500",
     // borderRadius: "0.5rem",
-    "&:hover": {
-      backgroundColor: "#680747",
-      color: "gold",
-    },
-    color: "white",
+
+    color: "black",
   };
 
 const MenuListItems = () => {
